@@ -58,7 +58,7 @@ function validateAnswer(){
 
     } else {
         console.log("wrong");
-        timeLeft = timeLeft -10;
+        timeLeft = timeLeft -15;
         timerDispaly.textContent = timeLeft
     }
     questionIndex ++;
